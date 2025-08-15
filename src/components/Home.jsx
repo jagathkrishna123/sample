@@ -4,7 +4,7 @@ import ListItem from './ListItem'
 
 const Home = () => {
   return (
-    <div className="bg-white p-4 h-full rounded-md">
+    <div className="bg-white pl-2 h-[96vh] rounded-md overflow-hidden">
         <Content/>
         <ListItem/>
     </div>

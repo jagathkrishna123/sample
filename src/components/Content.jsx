@@ -1,38 +1,29 @@
+import Buttonsection from "./Buttonsection";
 
-import { BiSearch } from "react-icons/bi";
-import { CiFilter } from "react-icons/ci";
 
 const Content = () => {
   return (
-    <div className="flex items-center justify-between w-full bg-gray-300 max-w-full p-3 rounded">
-      
-      <p className="text-xl font-semibold text-gray-800">Waitlist</p>
+    <div className='flex flex-col m-2'>
+        <div className=''>
+            <p className="text-[20px] font-semibold text-slate-700">Waitlist</p>
+        </div>
 
-      
-      <div className="gap-3 grid grid-cols-3 ">
+        <div className="grid grid-cols-3 justify-items-stretch gap-x-8 gap-y-4 mt-3">
+            <div className="flex items-center gap-2 border border-gray-300 rounded-md bg-white px-7 py-1 text-gray-700 text-sm w-[359px] h-[40px]">
+            <p className="font-semibold text-[12px] text-slate-700 font-geist">All Waitlists</p> <span className="text-gray-500 text-[10px] font-medium">100</span>
+            </div>
+
+            
+            <div className="flex items-center gap-2 border border-gray-300 rounded-md bg-white px-7 py-1 text-gray-700 text-sm w-[359px] h-[40px]">
+            <p className="font-semibold text-[12px] text-slate-700 font-geist">Newly Added</p> <span className="text-gray-500 text-[10px] font-medium">50</span>
+            </div>
+
         
-        <div className="flex items-center gap-2 border border-gray-300 rounded-md bg-white px-7 py-1 text-gray-700 text-sm w-64">
-          All Waitlists <span className="text-gray-500 text-xs">100</span>
+            <div className="flex items-center gap-2 border border-gray-300 rounded-md bg-white px-7 py-1 text-gray-700 text-sm w-[359px] h-[40px]">
+            <p className="font-semibold text-[12px] text-slate-700 font-geist">Leads</p> <span className="text-gray-500 text-[10px] font-medium">20</span>
+            </div>
         </div>
-
-        
-        <div className="flex items-center gap-2 border border-gray-300 rounded-md bg-white px-7 py-1 text-gray-700 text-sm">
-          Newly Added <span className="text-gray-500 text-xs">50</span>
-        </div>
-
-       
-        <div className="flex items-center gap-2 border border-gray-300 rounded-md bg-white px-7 py-1 text-gray-700 text-sm">
-          Leads <span className="text-gray-500 text-xs">20</span>
-        </div>
-      </div>
-      <div className="flex">
-        <button className="bg-gray-400 text-xs p-2 rounded-lg flex items-center hover:bg-gray-700 transition-all duration-300 hover:text-gray-100"><CiFilter className="text-xl"/>Add filter</button>
-        <div className="flex flex-row">
-          <input type="text" placeholder='Search anything...' className="rounded-lg ml-4 p-2 " />
-        {/* <BiSearch className='text-xl'/> */}
-        </div>
-                
-      </div>
+        <Buttonsection/>
     </div>
   );
 };
