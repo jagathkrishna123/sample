@@ -5,10 +5,10 @@ import { FaUserCircle } from "react-icons/fa";
 
 const Sidebar = () => {
   return (
-    <div className="flex flex-col gap-3 h-[96vh] ml-3 bg-gray-200 p-[8px] rounded-lg mt-3 shadow">
+    <div className="flex flex-col gap-3 h-[800px] w-[228px] ml-3 bg-slate-50 p-[8px] rounded-lg mt-3">
       
       {/* =====Logo==== */}
-      <div className="text-center p-5 flex gap-5 items-center">
+      <div className="text-center p-5 flex gap-3 items-center">
         <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M18.48 0H3.52001C1.57596 0 0 1.57596 0 3.52001V18.48C0 20.424 1.57596 22 3.52001 22H18.48C20.424 22 22 20.424 22 18.48V3.52001C22 1.57596 20.424 0 18.48 0Z" fill="#262626"/>
         <path d="M17.7627 12.9381C18.8596 12.9381 19.7488 12.047 19.7488 10.9479C19.7488 9.84878 18.8596 8.95776 17.7627 8.95776C16.6658 8.95776 15.7766 9.84878 15.7766 10.9479C15.7766 12.047 16.6658 12.9381 17.7627 12.9381Z" fill="white"/>
@@ -43,7 +43,7 @@ const Sidebar = () => {
 
             </div>
 
-          <div className='flex items-center gap-5 font-semibold bg-gray-300 rounded p-2 shadow-lg'>
+          <div className='flex items-center gap-5 font-semibold bg-slate-100 rounded p-2 shadow-lg'>
               <div className="flex flex-col leading-tight">
                   <p className='font-bold text-[16px] text-slate-700'>08:30 AM <span className='text-[14px] font-medium'>Tue 20 Jan</span></p>
                   <p className="text-sm font-normal text-gray-600 flex flex-row gap-3"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -124,7 +124,7 @@ const Sidebar = () => {
         
 
 
-       <div className='gap-3 mt-[200px]'>
+       <div className='gap-3 mt-[190px]'>
         <a 
           href="" 
           className="flex items-center gap-5 text-16px font-semibold p-3 rounded-lg
@@ -149,7 +149,7 @@ const Sidebar = () => {
         </a>
        
         <div className='gap-2'>
-            <div className='flex items-center gap-5 bg-gray-100 rounded p-2 shadow-xl mb-[3px] mt-[3px]'>
+            <div className='flex items-center gap-5 bg-gray-100 rounded p-2 shadow-xl mb-[3px] mt-[3px] w-[212px] h-[60px]'>
                   <FaUserCircle className='text-2xl' />
                   
                   <div className="flex flex-col leading-tight">
@@ -157,7 +157,7 @@ const Sidebar = () => {
                     <p className="text-[12px] font-geist text-slate-500">adminname@gmail.com</p>
                   </div>
             </div>
-            <div className='flex items-center gap-5 font-semibold bg-gray-300 rounded p-2 shadow-xl'>
+            <div className='flex items-center gap-5 font-semibold bg-gray-300 rounded p-2 shadow-xl w-[212px] h-[49px]'>
                   <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <g clip-path="url(#clip0_1_12438)">
                           <path d="M8.00004 14.6666C11.6819 14.6666 14.6667 11.6818 14.6667 7.99992C14.6667 4.31802 11.6819 1.33325 8.00004 1.33325C4.31814 1.33325 1.33337 4.31802 1.33337 7.99992C1.33337 11.6818 4.31814 14.6666 8.00004 14.6666Z" stroke="#475569" stroke-linecap="round" stroke-linejoin="round"/>
