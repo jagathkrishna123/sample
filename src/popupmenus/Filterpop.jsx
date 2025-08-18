@@ -11,7 +11,7 @@ const columns = [
 ];
 const Filterpop = () => {
   return (
-        <div className='w-[320px] h-[472px] rounded-[12px] p-[16px] gap-[16px] bg-white'>
+        <div className='w-[320px] h-[472px] rounded-[12px] p-[16px] gap-[16px] bg-white shadow-lg mt-2 border-[1px] border-gray-300'>
 
         <div className='w-[288px] h-[52px] gap-[8px] mb-4'>
             <p className='font-geist font-medium text-[16px]'>Edit Columns</p>
@@ -30,7 +30,7 @@ const Filterpop = () => {
         </div>
 
         <div className='w-[288px] h-[32px] gap-[12px] flex mt-4'>
-            <button className='w-[138px] h-[32px] rounded-[6px] border font-medium font-geist text-[14px]'>Reset to Default</button>
+            <button className='w-[138px] h-[32px] rounded-[6px] border font-medium font-geist text-[14px] hover:bg-slate-200'>Reset to Default</button>
             <button className='w-[138px] h-[32px] rounded-[6px] bg-slate-900 text-white text-[14px]'>Apply</button>
         </div>
     </div>

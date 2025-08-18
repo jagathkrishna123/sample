@@ -142,7 +142,7 @@ const ListItem = () => {
   return (
      <div className="bg-white rounded-lg shadow-sm border border-gray-200 mt-3 ml-2">
       <table className="min-w-full text-left text-sm text-gray-700">
-        {/* =========================Header======================================= */}
+        {/* =============Header==================================================== */}
         <thead className="bg-gray-50 font-medium text-slate-500 text-[12px]">
           <tr>
             <th className="px-4 py-3">
@@ -286,7 +286,7 @@ const ListItem = () => {
         </tbody>
       </table>
 
-      {/* Footer */}
+      {/* Footer.................................. */}
       <div className="flex justify-between items-center p-4 text-sm text-gray-600 border-t">
         <span>
           Displaying <strong>{waitlistData.length}</strong> out of{" "}
