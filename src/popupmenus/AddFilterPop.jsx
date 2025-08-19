@@ -16,20 +16,19 @@ const AddFilterpop = () => {
   return (
     <div className='w-[612px] h-[400px] rounded-sm bg-white border-[1px] border-gray-300'>
         <div className='w-[612px] h-[348px] flex flex-row'>
-            <div className='w-[230px] h-[348px] border-[1px] p-[8px] border-slate-50 flex flex-col bg-slate-100'>
+            <div className='w-[230px] h-[348px] border-[1px] p-[8px] border-slate-50 flex flex-col bg-slate-100 gap-2'>
 
                 <button href='' onClick={()=> setActiveTab("scheduled")} className='w-[214px] h-[36px] bg-slate-200 rounded-[6px] p-[8px]  flex items-center gap-2 justify-start'>
                     <img src={CalenderDate} alt="" />
                     <p className='font-medium font-geist text-[14px] text-slate-700 w-[159px] h-[20px]'>Scheduled Date</p>
-                    <p className='font-normal text-[14px] text-slate-500'>1</p>
                 </button>
 
-                <button href='' onClick={()=> setActiveTab("people")}className='w-[214px] h-[36px] rounded-[6px] p-[8px] gap-[8px] flex items-start'>
+                <button href='' onClick={()=> setActiveTab("people")}className='w-[214px] h-[36px] rounded-[6px] p-[8px] gap-[8px] flex items-start hover:bg-slate-200'>
                     <img src={People} alt="" />
                     <p className='font-medium font-geist text-[14px] text-slate-700 w-[159px] h-[20px]'>People</p>
                 </button>
 
-                <button href='' onClick={()=> setActiveTab("services")}className='w-[214px] h-[36px] rounded-[6px] p-[8px] gap-[8px] flex items-center'>
+                <button href='' onClick={()=> setActiveTab("services")}className='w-[214px] h-[36px] rounded-[6px] p-[8px] gap-[8px] flex items-center hover:bg-slate-200'>
                     <img src={Dashboard} alt="" />
                     <p className='font-medium font-geist text-[14px] text-slate-700 w-[159px] h-[20px]'>Services / Products</p>
                 </button>

@@ -132,6 +132,56 @@ const ListItem = () => {
       services: "Therapy Session",
       scheduled: "Tue, 09 Jan 2024 12:00 PM",
     },
+    {
+      id: 14,
+      createdOn: "Tue, 09 Jan 2024 11:10 AM",
+      payer: "Rick Hunter",
+      status: "Inactive",
+      email: "rick.hunter@gmail.com",
+      phone: "+91 +966559186878",
+      services: "Therapy Session",
+      scheduled: "Tue, 09 Jan 2024 12:00 PM",
+    },
+    {
+      id: 15,
+      createdOn: "Tue, 09 Jan 2024 11:10 AM",
+      payer: "Rick Hunter",
+      status: "Inactive",
+      email: "rick.hunter@gmail.com",
+      phone: "+91 +966559186878",
+      services: "Therapy Session",
+      scheduled: "Tue, 09 Jan 2024 12:00 PM",
+    },
+    {
+      id: 16,
+      createdOn: "Tue, 09 Jan 2024 11:10 AM",
+      payer: "Rick Hunter",
+      status: "Inactive",
+      email: "rick.hunter@gmail.com",
+      phone: "+91 +966559186878",
+      services: "Therapy Session",
+      scheduled: "Tue, 09 Jan 2024 12:00 PM",
+    },
+    {
+      id: 16,
+      createdOn: "Tue, 09 Jan 2024 11:10 AM",
+      payer: "Rick Hunter",
+      status: "Inactive",
+      email: "rick.hunter@gmail.com",
+      phone: "+91 +966559186878",
+      services: "Therapy Session",
+      scheduled: "Tue, 09 Jan 2024 12:00 PM",
+    },
+    {
+      id: 17,
+      createdOn: "Tue, 09 Jan 2024 11:10 AM",
+      payer: "Rick Hunter",
+      status: "Inactive",
+      email: "rick.hunter@gmail.com",
+      phone: "+91 +966559186878",
+      services: "Therapy Session",
+      scheduled: "Tue, 09 Jan 2024 12:00 PM",
+    },
   ];
 
   const statusClasses = {
@@ -140,7 +190,7 @@ const ListItem = () => {
     Inactive: "bg-gray-100 text-gray-600",
   };
   return (
-     <div className="bg-white rounded-lg shadow-sm border border-gray-200 mt-3 ml-2">
+     <div className="bg-white rounded-lg shadow-sm border border-gray-200 mt-3 ml-2 h-full overflow-y-auto">
       <table className="min-w-full text-left text-sm text-gray-700">
         {/* =============Header==================================================== */}
         <thead className="bg-gray-50 font-medium text-slate-500 text-[12px]">

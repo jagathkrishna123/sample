@@ -26,7 +26,7 @@ import CheckBoxfilter from "../assets/filter.svg"
 
 const Sidebar = () => {
   return (
-    <div className="flex flex-col gap-3 h-[800px] w-[228px] ml-3 bg-slate-50 p-[8px] rounded-lg mt-3">
+    <div className="flex flex-col gap-3 h-full w-[228px] ml-3 bg-gray-100p-[8px] rounded-lg mt-3">
       
       {/* =====Logo==== */}
       <div className="text-center p-5 flex gap-3 items-center">
@@ -38,7 +38,7 @@ const Sidebar = () => {
       <div className='gap-3'>
 
             <div className='flex items-center bg-white rounded-lg pl-3 gap-3 hover:bg-slate-50 justify-between p-2 mb-2'>
-              <p className='text-slate-700 text-[12px] font-geist'>Location Namer</p>
+              <p className='text-slate-700 text-[12px] font-geist'>Location Name</p>
               <img src={Location} alt="" />
             </div>
 
@@ -60,7 +60,7 @@ const Sidebar = () => {
       {/* ============Menu List======= */}
     <div className='flex flex-col justify-between'>
       <div className="flex flex-col gap-1">
-        <a 
+        <a
           href="" 
           className="flex items-center gap-5 text-16px font-semibold p-2.5 rounded-lg 
           transition duration-300 ease-in-out bg-white text-slate-700 shadow-lg">
@@ -101,7 +101,7 @@ const Sidebar = () => {
           <img src={Dashboard} alt="" />
           <p className='text-[12px] font-medium text-slate-700 font-geist'>Dashboard</p>
           <div className='ml-[40px]'>
-            <img src={Dashboard2} alt="" />
+            <img src={Dashboard2} alt="" className=''/>
           </div>
         </a>
        

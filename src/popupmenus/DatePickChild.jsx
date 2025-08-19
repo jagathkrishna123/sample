@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Datepicking from "../assets/datepick.svg"
 import DatePicker from 'react-datepicker'
 import "react-datepicker/dist/react-datepicker.css";
+import Dropdown from './Dropdown';
 
 const DatePickChild = () => {
         const [fromDate, setFromDate] = useState(null);
@@ -10,15 +11,7 @@ const DatePickChild = () => {
     <div className='w-[382px] h-[348px] p-[16px] gap-[20px] flex flex-col'>
                     <div className='w-[350px] h-[62px] gap-[2px]'>
                         <p className='font-medium text-[12px] font-geist text-slate-700 h-[22px] w-[350px]'>Show orders for</p>
-                          <select name="time" className='w-[350px] border-[1px] rounded-[3px] h-[36px] font-normal text-[14px] text-slate-700 shadow-sm'>
-                            <option>All time</option>
-                            <option>Custom</option>
-                            <option>Last 30 days</option>
-                            <option>This month</option>
-                            <option>Last month</option>
-                            <option>This quarter</option>
-                            <option>2 quarter ago</option>
-                        </select>
+                          <Dropdown/>
                     </div>
                     <div className='w-[345px] h-[62px] gap-[19px] flex'>
                         <div className='reletive'>
