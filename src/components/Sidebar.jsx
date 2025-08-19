@@ -60,53 +60,54 @@ const Sidebar = () => {
       {/* ============Menu List======= */}
     <div className='flex flex-col justify-between'>
       <div className="flex flex-col gap-1">
-        <a
-          href="" 
+        <button
           className="flex items-center gap-5 text-16px font-semibold p-2.5 rounded-lg 
-          transition duration-300 ease-in-out bg-white text-slate-700 shadow-lg">
+          transition duration-300 ease-in-out bg-white text-slate-700 shadow-lg
+          w-[232px] h-[32px]">
           <img src={Order} alt="" />
           <p className='text-[12px] font-medium text-slate-700 font-geist'>Orders</p>
-        </a>
-        <a 
-          href="" 
+        </button>
+
+        <button
           className="flex items-center gap-5 text-16px font-semibold p-2.5 rounded-lg 
-          transition duration-300 ease-in-out text-slate-700 hover:bg-white hover:shadow-lg">
+          transition duration-300 ease-in-out text-slate-700 hover:bg-white hover:shadow-lg
+          w-[232px] h-[32px]">
           <img src={Subscription} alt="" />
               <p className='text-[12px] font-medium text-slate-700 font-geist'>Subscription</p>          
-        </a>
-        <a 
-          href="" 
+        </button>
+
+        <button
           className="flex items-center gap-5 text-16px font-semibold p-2.5 rounded-lg
-           transition duration-300 ease-in-out text-slate-700 hover:bg-white hover:shadow-lg">
+           transition duration-300 ease-in-out text-slate-700 hover:bg-white hover:shadow-lg
+           w-[232px] h-[32px]">
           <img src={Calendar} alt="" />
           <p className='text-[12px] font-medium text-slate-700 font-geist'>Calender</p>
-        </a>
+        </button>
 
-        <a 
-          href="" 
+        <button
           className="flex items-center gap-5 text-16px font-semibold p-2.5 rounded-lg
-           transition duration-300 ease-in-out text-slate-700 hover:bg-white hover:shadow-lg">
+           transition duration-300 ease-in-out text-slate-700 hover:bg-white hover:shadow-lg
+           w-[232px] h-[32px]">
           <img src={Waitlist} alt="" />
           <p className='text-[12px] font-medium text-slate-700 font-geist'>Waitlist</p>
-        </a>
+        </button>
       </div>
         
 
 
-       <div className='gap-3 mt-[190px]'>
-        <a 
-          href="" 
-          className="flex items-center gap-5 text-16px font-semibold p-3 rounded-lg
-         transition duration-300 ease-in-out text-slate-700 hover:bg-white hover:shadow-lg mb-[5px]">
-          <img src={Dashboard} alt="" />
-          <p className='text-[12px] font-medium text-slate-700 font-geist'>Dashboard</p>
-          <div className='ml-[40px]'>
-            <img src={Dashboard2} alt="" className=''/>
+       <div className='gap-3 mt-[240px]'>
+        <button className="flex items-center justify-between text-16px font-semibold p-3 rounded-lg
+             transition duration-300 ease-in-out text-slate-700 hover:bg-white hover:shadow-lg mb-[5px] w-[232px] h-[32px]">
+          <div className="flex items-center gap-2">
+            <img src={Dashboard} alt="" />
+            <p className="text-[12px] font-medium text-slate-700 font-geist">Dashboard</p>
           </div>
-        </a>
+        <img src={Dashboard2} alt="" />
+      </button>
+
        
         <div className='gap-2'>
-            <div className='flex items-center gap-5 bg-gray-100 rounded p-2 shadow-xl mb-[3px] mt-[3px] w-[212px] h-[60px]'>
+            <div className='flex items-center gap-5 bg-gray-100 rounded p-2 shadow-xl mb-[3px] mt-[3px] w-[232px] h-[60px]'>
                   <FaUserCircle className='text-2xl' />
                   
                   <div className="flex flex-col leading-tight">
@@ -114,7 +115,7 @@ const Sidebar = () => {
                     <p className="text-[12px] font-geist text-slate-500">adminname@gmail.com</p>
                   </div>
             </div>
-            <div className='flex items-center gap-5 font-semibold bg-gray-300 rounded p-2 shadow-xl w-[212px] h-[49px]'>
+            <div className='flex items-center gap-5 font-semibold bg-gray-300 rounded p-2 shadow-xl w-[232px] h-[49px]'>
                   <img src={Help} alt="" />
 
                   

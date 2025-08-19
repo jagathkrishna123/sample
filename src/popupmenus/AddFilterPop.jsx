@@ -18,19 +18,24 @@ const AddFilterpop = () => {
         <div className='w-[612px] h-[348px] flex flex-row'>
             <div className='w-[230px] h-[348px] border-[1px] p-[8px] border-slate-50 flex flex-col bg-slate-100 gap-2'>
 
-                <button href='' onClick={()=> setActiveTab("scheduled")} className='w-[214px] h-[36px] bg-slate-200 rounded-[6px] p-[8px]  flex items-center gap-2 justify-start'>
-                    <img src={CalenderDate} alt="" />
-                    <p className='font-medium font-geist text-[14px] text-slate-700 w-[159px] h-[20px]'>Scheduled Date</p>
+                <button
+                onClick={() => setActiveTab("scheduled")}
+                className="w-[214px] h-[36px] bg-slate-200 rounded-[6px] px-[8px] flex items-center gap-2 justify-start hover:bg-slate-300 transition duration-3">
+                <img src={CalenderDate} alt="calendar" className="w-4 h-4" />
+                <p className="font-medium font-geist text-[14px] text-slate-700">Scheduled Date</p>
                 </button>
 
-                <button href='' onClick={()=> setActiveTab("people")}className='w-[214px] h-[36px] rounded-[6px] p-[8px] gap-[8px] flex items-start hover:bg-slate-200'>
+
+                <button onClick={()=> setActiveTab("people")}
+                className='w-[214px] h-[36px] bg-slate-200 rounded-[6px] px-[8px] flex items-center gap-2 justify-start hover:bg-slate-300'>
                     <img src={People} alt="" />
-                    <p className='font-medium font-geist text-[14px] text-slate-700 w-[159px] h-[20px]'>People</p>
+                    <p className='font-medium font-geist text-[14px] text-slate-700'>Peoplxe</p>
                 </button>
 
-                <button href='' onClick={()=> setActiveTab("services")}className='w-[214px] h-[36px] rounded-[6px] p-[8px] gap-[8px] flex items-center hover:bg-slate-200'>
+                <button onClick={()=> setActiveTab("services")}
+                className='w-[214px] h-[36px] rounded-[6px] bg-slate-200 px-[8px] gap-2 flex items-center justify-start hover:bg-slate-300'>
                     <img src={Dashboard} alt="" />
-                    <p className='font-medium font-geist text-[14px] text-slate-700 w-[159px] h-[20px]'>Services / Products</p>
+                    <p className='font-medium font-geist text-[14px] text-slate-700'>Services / Products</p>
                 </button>
             </div>
                         {/* ----------right----------- */}

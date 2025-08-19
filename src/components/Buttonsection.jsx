@@ -21,7 +21,7 @@ const Buttonsection = () => {
                 Add filter
             </button>
             {showAddFilter && (
-                <div className='absolute left-0 mt-3 shadow-lg'>
+                <div className='absolute left-0 mt-3 shadow-lg z-30'>
                     <AddFilterpop/>
                 </div>
             )}
