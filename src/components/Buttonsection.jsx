@@ -36,7 +36,7 @@ const Buttonsection = () => {
                     <img src={CheckBoxfilter} alt="" className='w-[16px] h-[16px]'/>
                 </button>
                 {showFilterPop && (
-                    <div className='absolute right-0'>
+                    <div className='absolute right-0 z-30'>
                         <Filterpop/>
                     </div>
                 )}
